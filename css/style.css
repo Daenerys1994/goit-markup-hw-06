@@ -754,4 +754,215 @@ padding-bottom: 8px;
     background: var(--btn-text-color);
     fill: var(--btn-bg-color);
 }
+/* ----------------------------------06------------------------------ */
+.footer-subscribe-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    line-height: 24px;letter-spacing: 0.02em;
+    color: var(--btn-text-color-activ);
+    padding: 8, 64, 8, 24;
+    display: block;
+    
+}
+.footer-subscribe{
+    padding-left: 80px;  
+   
+}
+
+.subscribe-btn{
+    background: var(--btn-text-color);
+    border-radius: 4px;
+    color: var(--main-bg-color);
+    padding: 8px 24px 8px 24px;
+    width: 165px;
+    height: 40px;
+    border-color: transparent;
+    align-items: center;
+    gap: 16px;
+    letter-spacing: 0.04em;
+    transition: var(--hover-transition);
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500; 
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background-color: var(--btn-bg-color-active);
+}
+
+.footer-icons{
+    fill: #fff;
+   
+}
+.footer-input{
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    Width: 264px;
+    Height: 40px;
+    margin-top: 16px;
+    margin-right: 20px;
+    background-color: var(--main-text-color);
+}  
+
+/* ----------------- */
+.modal-title {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-top: 32px;
+}
+
+.modal-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.modal-name {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116.666667%; /* 14/12 */
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+}
+
+
+.modal-wrap {
+    display: block;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 38px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    transition: border-color var(--hover-transition);
+}
+
+.modal-input:focus,
+.modal-input:hover {
+    border-color: var(--btn-text-color);
+}
+
+.modal-input:focus + .modal-icon,
+.modal-input:hover + .modal-icon {
+    fill: var(--btn-text-color);
+}
+
+.modal-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: fill var(--hover-transition);
+}
+
+.modal-textarea {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116.666667%; /* 14/12 */
+    letter-spacing: 0.04em;
+    padding-top: 8px;
+    padding-left: 16px;
+    outline: none;
+    color: #000000;
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    transition: border-color var(--hover-transition);
+}
+
+.modal-textarea:focus,
+.modal-textarea:hover {
+  border-color: var(--btn-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.modal-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116.666667%; /* 14/12 */
+    letter-spacing: 0.04em;
+    color: #757575;
+}
+
+.check-box {
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid #2E2F42;
+  border-radius: 2px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-box-text:hover,
+.check-box-text:focus {
+  cursor: pointer;
+}
+
+.check-box:hover,
+.check-box:focus {
+  cursor: pointer;
   
+}
+
+
+
+.modal-check:checked + .check-box {
+    background: #4D5AE5 ;
+
+    
+}
+
+.policy {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+
+.check-btn {
+    display: block;
+    margin: 0 auto ;
+    min-width: 169px;
+    height: 56px;
+    color:#FFFFFF;
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background-color var(--hover-transition);
+}
